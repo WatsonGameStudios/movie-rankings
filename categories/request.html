@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Request A Movie to be Added</title>
+    <link rel="icon" type="image/x-icon" href="base-favicon.png" />
+  </head>
+  <body>
+    <a href="../index.html" class="site_header_hyperlink"
+      >Alex's Movie Rankings</a
+    >
+    <a href="request.html" class="page_title">Request A Movie To Be Added</a>
+    <div class="form_background">
+      <br />
+      <form>
+        <label for="movie_title">Movie Title: </label>
+        <br />
+        <input
+          class="form_field"
+          type="text"
+          required
+          placeholder="Movie Title"
+          id="movie_title"
+        />
+        <br /><br />
+        <label for="release_year">Release Year: </label>
+        <br />
+        <input
+          type="text"
+          class="form_field"
+          placeholder="Release Year"
+          id="release_year"
+        />
+        <br /><br />
+        <label for="account_email">Contact Email: </label>
+        <br />
+        <input
+          class="form_field"
+          type="email"
+          required
+          placeholder="account@email.com"
+          id="account_email"
+        />
+        <br /><br />
+        <label for="password" required>Account Password: </label>
+        <br />
+        <input
+          class="form_field"
+          type="password"
+          placeholder="Account Password"
+          id="account_password"
+        />
+        <br /><br />
+        <label for="">Fear Factor: </label>
+        <br />
+        <input
+          class="form_field"
+          type="number"
+          placeholder="Fear Factor (0.1-10)"
+          id="Fear Factor"
+        />
+        <br /><br />
+        <label for="">Category: </label>
+        <br />
+        <select name="Category" id="category">
+          <option value="Horror">Horror/Thriller</option>
+          <option value="Horror">Comedy</option>
+        </select>
+        <br /><br />
+        <label>Get Email Updates </label>
+
+        <input type="checkbox" />
+        <br /><br />
+        <label>Subscribe to Mailing List </label>
+
+        <input type="checkbox" />
+        <br /><br />
+        <label>Get Email's About New Movies </label>
+        <input type="checkbox" />
+        <br /><br /><br />
+        <fieldset>
+          <legend>Select A Server:</legend>
+          <div>
+            <input
+              type="radio"
+              id="Watson RPI4"
+              name="drone"
+              value="Watson RPI4"
+              checked
+            />
+            <label for="Watson RPI4">Watson RPI4</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="Watson RPI5"
+              name="drone"
+              value="Watson RPI5"
+            />
+            <label for="Watson RPI5">Watson RPI5</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="Watson Cloud M2"
+              name="drone"
+              value="Watson Cloud M2"
+            />
+            <label for="Watson Cloud M2">Watson Cloud M2</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="WatsonGameStudios.github.com"
+              name="drone"
+              value="WatsonGameStudios.github.com"
+            />
+            <label for="WatsonGameStudios.github.com"
+              >WatsonGameStudios.github.com page (RECCOMENDED)</label
+            >
+          </div>
+        </fieldset>
+        <br /><br />
+        <input type="submit" class="form_field" value="Submit" />
+      </form>
+      <br /><br /><br />
+      <ul>
+        <li>Nummer1</li>
+        <li>Nummer2</li>
+        <li>Nummer3</li>
+        <li>Nummer4</li>
+        <li>Nummer5</li>
+        <li>Nummer6</li>
+        <li>Nummer7</li>
+        <li>Nummer8</li>
+        <li>Nummer9</li>
+      </ul>
+    </div>
+  </body>
+</html>

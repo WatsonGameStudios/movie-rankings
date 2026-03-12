@@ -1,0 +1,208 @@
+body {
+  background: #020024;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 66, 79, 1) 100%
+  );
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 70px;
+  font-family: "AlexAwesomeCustomMadeFontTM";
+}
+
+@font-face {
+  font-family: "AlexAwesomeCustomMadeFontTM";
+  src: url("fonts/Custom-MADE-font-by-Alex-smajl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site_header_hyperlink {
+  display: block;
+  color: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.site_header_hyperlink:hover {
+  background: radial-gradient(
+    circle,
+    rgb(30, 59, 205) 0%,
+    rgb(209, 38, 72) 100%
+  );
+}
+
+.page_title {
+  display: block;
+  color: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(42, 123, 155, 1) 0%,
+    rgb(38, 145, 82) 100%
+  );
+
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: sticky;
+  top: 55px;
+  z-index: 900;
+}
+
+.page_title:hover {
+  background: radial-gradient(circle, rgb(20, 76, 98) 0%, rgb(13, 80, 42) 100%);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.poster:hover {
+  transform: scale(1.05);
+}
+
+.link {
+  color: #4855e7;
+  text-decoration: underline;
+}
+
+.poster-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.poster-info {
+  text-align: center; /* centers text inside */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers list relative to poster */
+  width: 300px; /* matches poster width */
+}
+
+.poster-info ul {
+  list-style: none; /* removes bullets */
+  padding: 0;
+  margin: 0;
+  line-height: 1.6; /* adds space between lines */
+  width: 100%; /* ensures ul takes full width of poster-info */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.poster-row a {
+  color: white;
+  text-decoration: none;
+}
+
+.poster-row a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.watch_list_title {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 750px) {
+  .home_welcoming {
+    padding-top: 50px;
+  }
+}
+
+.form_background {
+  width: 75%;
+  height: auto;
+  padding: 20px;
+  background: radial-gradient(circle, rgb(20, 76, 98) 0%, rgb(13, 80, 42) 100%);
+}
+
+.form_field {
+  align-self: center;
+}
+
+form {
+  color: #020024;
+  padding: 10px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 5%;
+}
+
+input:focus {
+  background-color: rgb(227, 238, 144);
+  scale: 1.05;
+  transition: all 0.5s;
+}
+
+::placeholder {
+  color: rgb(176, 87, 87);
+  font-style: italic;
+}
+
+li:first-child {
+  color: #b8b8d4;
+}
+
+li:last-child {
+  color: rgb(207, 125, 95);
+}
+
+li:nth-child(4) {
+  color: rgb(0, 149, 255);
+}
+
+li:nth-child(odd)::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.fabulous_animation {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
