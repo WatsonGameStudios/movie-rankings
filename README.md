@@ -6,7 +6,7 @@ NOTE: I do not own nor claim to own any of the movie poster assets in this repos
 
 
 ### TO ADD
-#### Seen
+#### Horror
 1. Split
 2. Weapons
 3. Its What's Inside
@@ -17,5 +17,8 @@ NOTE: I do not own nor claim to own any of the movie poster assets in this repos
 8. Barbarian
 9. Blair Witch Project
 10. Fear Street 1,2,3
+11. Smile 2
+12. Snowpiercer
+13. Would You Rather
 
-#### To See
+
