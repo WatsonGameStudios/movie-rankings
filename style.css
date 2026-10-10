@@ -9,12 +9,12 @@ body {
   min-height: 100vh;
   margin: 0;
   padding-top: 70px;
-  font-family: "AlexAwesomeCustomMadeFontTM";
+  font-family: "Pixilari";
 }
 
 @font-face {
-  font-family: "AlexAwesomeCustomMadeFontTM";
-  src: url("fonts/Custom-MADE-font-by-Alex-smajl.ttf") format("truetype");
+  font-family: "Pixilari";
+  src: url("fonts/pixilari\(edited\).ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -103,19 +103,19 @@ h2 {
 }
 
 .poster-info {
-  text-align: center; /* centers text inside */
+  text-align: center; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* centers list relative to poster */
-  width: 300px; /* matches poster width */
+  align-items: center;
+  width: 300px; 
 }
 
 .poster-info ul {
-  list-style: none; /* removes bullets */
+  list-style: none;
   padding: 0;
   margin: 0;
-  line-height: 1.6; /* adds space between lines */
-  width: 100%; /* ensures ul takes full width of poster-info */
+  line-height: 1.6; 
+  width: 100%; 
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
@@ -205,4 +205,68 @@ li:nth-child(odd)::first-letter {
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie_count {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.filters {
+  margin: 30px auto 0;
+  box-sizing: border-box;
+}
+
+.filter_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px 25px;
+}
+
+.filter_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+
+.filter_group select {
+  height: 26px;
+  width: 200px;
+}
+
+.filter_range {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter_range input {
+  width: 60px;
+}
+
+.filter_count {
+  color: white;
+  margin: 15px 0 0;
+}
+
+.filter_reset {
+  align-self: flex-end;
+  height: 26px;
+  cursor: pointer;
+}
+
+.no_results {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.genre_label {
+  display: block;
+  font-size: 120%;
+  color: #b8b8d4;
 }

@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Alex's Movie Rankings</title>
-    <link rel="icon" type="image/x-icon" href="base-favicon.png" />
+    <link rel="icon" type="image/x-icon" href="images/base-favicon.png" />
   </head>
   <body>
     <a href="index.html" class="site_header_hyperlink">Alex's Movie Rankings</a>
     <h1 class="home_welcoming">Welcome to Alex's Movie Rankings</h1>
-    <br />
-    <h2>--Categories--</h2>
-    <div class="poster-row">
-      <a href="categories/horror.html">
-        <img
-          src="posters/categories/horror_poster.png"
-          alt="HORROR"
-          class="poster"
-        />
-      </a>
+
+    <div class="form_background filters">
+      <div id="filters" class="filter_row"></div>
+      <p id="result_count" class="movie_count filter_count"></p>
     </div>
+
+    <div id="genre_title"></div>
+    <div id="movies" class="poster-row"></div>
+
+    <div id="watchlist_section" hidden>
+      <h1 class="watch_list_title">Watch List (To Watch)</h1>
+      <div id="watchlist" class="poster-row"></div>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

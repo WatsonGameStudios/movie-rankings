@@ -1,0 +1,552 @@
+{
+  "genres": [
+    {
+      "id": "horror",
+      "name": "Horror",
+      "emoji": "🩸🔪"
+    },
+    {
+      "id": "thriller",
+      "name": "Thriller",
+      "emoji": "🧛😱"
+    }
+  ],
+  "scores": [
+    {
+      "key": "overall",
+      "label": "Overall Score"
+    },
+    {
+      "key": "cinematography",
+      "label": "Cinematography"
+    },
+    {
+      "key": "story",
+      "label": "Story"
+    },
+    {
+      "key": "fear_factor",
+      "label": "Fear Factor"
+    }
+  ],
+  "movies": [
+    {
+      "title": "MIDSOMMAR",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/midsommar.jpg",
+      "year": 2019,
+      "scores": {
+        "overall": 9,
+        "cinematography": 10,
+        "story": 8,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "TEXAS CHAINSAW MASSACRE (2022)",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/texas_chainsaw.jpg",
+      "year": 2022,
+      "scores": {
+        "overall": 3,
+        "cinematography": 6,
+        "story": 2,
+        "fear_factor": 7
+      },
+      "notes": {
+        "fear_factor": "disturbing"
+      }
+    },
+    {
+      "title": "IT Chapter One",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/it_1.jpg",
+      "year": 2017,
+      "scores": {
+        "overall": 8,
+        "cinematography": 9,
+        "story": 8,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "IT Chapter Two",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/it_2.webp",
+      "year": 2019,
+      "scores": {
+        "overall": 9,
+        "cinematography": 8,
+        "story": 7,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "As Above, So Below",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/as_above_so_below.jpg",
+      "year": 2014,
+      "scores": {
+        "overall": 7,
+        "cinematography": 6,
+        "story": 5.5,
+        "fear_factor": 7.5
+      }
+    },
+    {
+      "title": "The Shining",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/the_shining.webp",
+      "year": 1980,
+      "scores": {
+        "overall": 9,
+        "cinematography": 10,
+        "story": 8,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "Don't Listen",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/dont_listen.avif",
+      "year": 2020,
+      "scores": {
+        "overall": 7,
+        "cinematography": 6,
+        "story": 6,
+        "fear_factor": 8
+      }
+    },
+    {
+      "title": "It Follows",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/it_follows.webp",
+      "year": 2015,
+      "scores": {
+        "overall": 5,
+        "cinematography": 6,
+        "story": 4,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Heretic",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/heretic.jpg",
+      "year": 2024,
+      "scores": {
+        "overall": 7,
+        "cinematography": 7,
+        "story": 7,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Smile",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/smile.jpg",
+      "year": 2022,
+      "scores": {
+        "overall": 8,
+        "cinematography": 6,
+        "story": 9,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Smile 2",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/smile-2.jpg",
+      "year": 2024,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 7,
+        "fear_factor": 8
+      }
+    },
+    {
+      "title": "Late Night With The Devil",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/late_night.jpeg",
+      "year": 2023,
+      "scores": {
+        "overall": 5,
+        "cinematography": 5,
+        "story": 5,
+        "fear_factor": 3
+      },
+      "notes": {
+        "overall": "Original Concept"
+      }
+    },
+    {
+      "title": "The Substance",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/the_substance.jpg",
+      "year": 2024,
+      "scores": {
+        "overall": 9,
+        "cinematography": 10,
+        "story": 9,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "The Conference",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/the_conference.jpg",
+      "year": 2023,
+      "scores": {
+        "overall": 6,
+        "cinematography": 6,
+        "story": 5,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "Ready Or Not",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/ready_or_not.jpg",
+      "year": 2019,
+      "scores": {
+        "overall": 7,
+        "cinematography": 6,
+        "story": 6,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Get Out",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/get_out.jpg",
+      "year": 2017,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 9,
+        "fear_factor": 8
+      }
+    },
+    {
+      "title": "US",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/us.webp",
+      "year": 2019,
+      "scores": {
+        "overall": 5,
+        "cinematography": 5,
+        "story": 5,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "The Menu",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/the_menu.jpg",
+      "year": 2022,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 7,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "Talk To Me",
+      "genres": [
+        "horror", "thriller"
+      ],
+      "poster": "images/posters/talk_to_me.png",
+      "year": 2022,
+      "scores": {
+        "overall": 7,
+        "cinematography": 7,
+        "story": 5,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "The Monkey",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/the_monkey.jpeg",
+      "year": 2025,
+      "scores": {
+        "overall": 7,
+        "cinematography": 8,
+        "story": 4,
+        "fear_factor": 4.5
+      }
+    },
+    {
+      "title": "Hereditary",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/hereditary.jpg",
+      "year": 2019,
+      "scores": {
+        "overall": 9,
+        "cinematography": 10,
+        "story": 9,
+        "fear_factor": 9
+      }
+    },
+    {
+      "title": "Tusk",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/tusk.jpg",
+      "year": 2014,
+      "scores": {
+        "overall": 5,
+        "cinematography": 5,
+        "story": 6,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "Black Phone",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/black_phone.jpg",
+      "year": 2025,
+      "scores": {
+        "overall": 7,
+        "cinematography": 8,
+        "story": 6,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "Split",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/split.jpg",
+      "year": 2016,
+      "scores": {
+        "overall": 8,
+        "cinematography": 9,
+        "story": 10,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Weapons",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/weapons.jpeg",
+      "year": 2025,
+      "scores": {
+        "overall": 8,
+        "cinematography": 8,
+        "story": 7,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Its Whats Inside",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/its_whats_inside.jpg.webp",
+      "year": 2024,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 9,
+        "fear_factor": 5
+      }
+    },
+    {
+      "title": "It Comes At Night",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/it_comes_at_night.png",
+      "year": 2017,
+      "scores": {
+        "overall": 7,
+        "cinematography": 7,
+        "story": 8,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Firebreak",
+      "genres": [
+        "thriller"
+      ],
+      "poster": "images/posters/firebreak.jpeg",
+      "year": 2026,
+      "scores": {
+        "overall": 6,
+        "cinematography": 7,
+        "story": 7,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Abigail",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/abigail.png",
+      "year": 2026,
+      "scores": {
+        "overall": 5,
+        "cinematography": 6,
+        "story": 5,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "Barbarian",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/barbarian.jpeg",
+      "year": 2026,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 8,
+        "fear_factor": 8
+      }
+    },
+    {
+      "title": "The Blair Witch Project",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/blair_witch_project.jpg",
+      "year": 1999,
+      "scores": {
+        "overall": 8,
+        "cinematography": 8,
+        "story": 6,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Fear Street 1994",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/fear_street_1994.jpg",
+      "year": 2021,
+      "scores": {
+        "overall": 6,
+        "cinematography": 7,
+        "story": 7,
+        "fear_factor": 6
+      }
+    },
+    {
+      "title": "Fear Street 1978",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/fear_street_1978.png",
+      "year": 2021,
+      "scores": {
+        "overall": 7,
+        "cinematography": 7,
+        "story": 8,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Fear Street 1666",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/fear_street_1666.jpg",
+      "year": 2021,
+      "scores": {
+        "overall": 8,
+        "cinematography": 7,
+        "story": 8,
+        "fear_factor": 8
+      }
+    },
+    {
+      "title": "Snowpiercer",
+      "genres": [
+        "thriller"
+      ],
+      "poster": "images/posters/snowpiercer.jpg",
+      "year": 2013,
+      "scores": {
+        "overall": 7,
+        "cinematography": 6,
+        "story": 8,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "Would You Rather",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/would_you_rather.jpeg",
+      "year": 2012,
+      "scores": {
+        "overall": 7,
+        "cinematography": 5,
+        "story": 6,
+        "fear_factor": 7
+      }
+    },
+    {
+      "title": "Black Phone 2",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/black_phone_2.jpg",
+      "watchlist": true
+    }
+  ]
+}

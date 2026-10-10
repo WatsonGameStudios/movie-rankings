@@ -8,6 +8,3 @@ NOTE: I do not own nor claim to own any of the movie poster assets in this repos
 ### TO ADD
 #### Horror
 1. Doctor Sleep
-
-
-
