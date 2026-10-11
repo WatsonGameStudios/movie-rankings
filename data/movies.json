@@ -9,6 +9,11 @@
       "id": "thriller",
       "name": "Thriller",
       "emoji": "🧛😱"
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary",
+      "emoji": "🎥🐘"
     }
   ],
   "scores": [
@@ -30,6 +35,34 @@
     }
   ],
   "movies": [
+    {
+      "title": "Blackfish",
+      "genres": [
+        "documentary"
+      ],
+      "poster": "images/posters/blackfish.jpg",
+      "year": 2013,
+      "scores": {
+        "overall": 9,
+        "cinematography": 7.5,
+        "story": 8,
+        "fear_factor": 4
+      }
+    },
+    {
+      "title": "OBSESSION",
+      "genres": [
+        "horror"
+      ],
+      "poster": "images/posters/obsession.jpg",
+      "year": 2026,
+      "scores": {
+        "overall": 9,
+        "cinematography": 8,
+        "story": 9,
+        "fear_factor": 8.5
+      }
+    },
     {
       "title": "MIDSOMMAR",
       "genres": [
